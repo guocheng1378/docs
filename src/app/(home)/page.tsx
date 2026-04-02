@@ -118,7 +118,7 @@ export default function HomePage() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl w-full">
         {[
           {
-            icon: '🧱',
+            icon: '📦',
             title: '功能增强',
             desc: '为背屏实现更多实用功能，提升使用体验',
           },

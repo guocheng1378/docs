@@ -51,11 +51,11 @@ jobs:
 
       - name: Build
         run: yarn build
-        env:
+        # env:
           # Only set basePath when NOT using a custom domain on GitHub Pages.
           # If you have a custom domain, remove this env var (leave it blank or delete).
           # If deploying to https://<user>.github.io/<repo>, set to /<repo>.
-          NEXT_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          # NEXT_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
